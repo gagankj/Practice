@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Manrope", sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color:rgb(255, 236, 222)
+}
+
+.nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(225, 56, 56); */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 30px;
+}   
+
+#nav-part1{
+    display: flex;
+}
+
+.nav h4{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px 10px;
+    font-weight: lighter;
+    
+}
+.nav i{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 5px 10px;
+}
+.nav h1{
+    font-weight: 500;
+    font-size: 35px;
+
+
+}
+
+.log{
+    border: 1px solid black;
+    border-radius: 50px;
+    padding: 7px 11px;
+    background-color: transparent;
+    
+    
+}
+.sign{
+    border:1px solid rgb(255, 132, 55);
+    border-radius: 50px;
+    padding: 7px 11px;
+    color: white;
+    background-color: rgb(255, 132, 55)
+}
+
+button:hover{
+    cursor: pointer;   
+}
+
+.adv{
+    font-size: 170px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    /* background-color: rgb(255, 132, 55); */
+    text-align: center;
+
+}
+
+.anime{
+    height: 500px;
+    width: 400px;
+    object-fit: cover;
+    border-radius: 20px;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform:translate(-50%,-50%);
+}
+
+
+
+#img2{
+    transform: translate(-50%,-50%) rotate(20deg);
+
+}
+
+#img3{
+    transform: translate(-50%,-50%) rotate(30deg);
+}
+
+
+#img4{
+    transform: translate(-50%,-50%) rotate(10deg);
+}
+
+.btm-left{
+    position: absolute;
+    left: 3%;
+    bottom: 6%;
+    font-size: 17px;
+}
+
+.right{
+    /* background-color: red; */
+    position: absolute;
+    right: 3%;
+    bottom: 5%;
+    
+}
+
+.icon{
+    /* display: flex; */
+    /* align-items: center; */
+    /* background-color: blueviolet; */
+    margin: 5px;
+}
