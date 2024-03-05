@@ -13,4 +13,5 @@ https://gagankj.github.io/Practice/netflix-clone/
 4. Dentytech web design:
 https://gagankj.github.io/Practice/Dentytech/index.html
 
-
+5. Razorpay design:
+https://gagankj.github.io/Practice/razorpay/index.html
