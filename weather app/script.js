@@ -10,7 +10,7 @@ const apikey="ed6afe05ab125128479d5c3b279d2fec"
             
             try {
                 
-                const response=await fetch(`http://api.openweathermap.org/geo/1.0/direct?q=${cityValue}&appid=${apikey}`)
+                const response=await fetch(`https://api.openweathermap.org/geo/1.0/direct?q=${cityValue}&appid=${apikey}`)
                 
                 const data= await response.json()
                 const lat=data[0].lat
