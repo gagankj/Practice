@@ -17,7 +17,7 @@ https://gagankj.github.io/Practice/Dentytech/index.html
 https://gagankj.github.io/Practice/razorpay/index.html
 
 6. Weather App:
-https://gagankj.github.io/Practice/weather%20app/index.html
+https://gagankj.github.io/Practice/weatherApp/index.html
 
 7. Tic-Tac-Toe:
 https://gagankj.github.io/Practice/tic-tac-toe/
