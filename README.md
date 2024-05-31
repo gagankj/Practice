@@ -1,5 +1,5 @@
 # Learning part
-Made these just for practice.It inculdes only html and css.
+Made these just for practice.
 
 1. Signup page demo:
 https://gagankj.github.io/Practice/signup/
@@ -15,3 +15,9 @@ https://gagankj.github.io/Practice/Dentytech/index.html
 
 5. Razorpay design:
 https://gagankj.github.io/Practice/razorpay/index.html
+
+6. Weather App:
+https://gagankj.github.io/Practice/weather%20app/index.html
+
+7. Tic-Tac-Toe:
+https://gagankj.github.io/Practice/tic-tac-toe/
