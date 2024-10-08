@@ -18,9 +18,7 @@ html,body{
 .outerbox{
     width: 100vw;
     height: 100vh;
-    background-image: url(bg.jpg);
-    background-size: cover;
-    /* background: linear-gradient(to top right,rgb(255, 255, 255),rgb(48, 188, 244)); */
+    background-color:black;
 
 }
 .innerbox{
