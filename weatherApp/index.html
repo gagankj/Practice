@@ -3,32 +3,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Modern Weather App</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <style>
+        /* Smooth transitions */
+        * {
+            transition: all 0.3s ease-in-out;
+        }
+        /* Hover effect on input and button */
+        input:hover, button:hover {
+            transform: scale(1.05);
+        }
+        /* Hover effects on social icons */
+        .social-icon:hover {
+            color: #ff6600; /* Change color on hover */
+            transform: scale(1.2);
+        }
+    </style>
 </head>
-<body>
+<body class="bg-gray-900 text-white">
 
-<div class="flex items-center w-screen bg-[url('https://cdn.pixabay.com/photo/2022/08/16/10/24/lightning-7389933_1280.jpg')] h-screen justify-center">
-
-    <div id="main" class=" text-white h-3/5 w-1/4 shadow-xl shadow-orange-600 backdrop-blur-md rounded-xl p-8">
-        <div class="flex justify-around">
-            
-            <input placeholder="enter city name" type="text" class="h-10 text-black bg-white w-3/4 rounded-3xl p-3">
-            <button class="h-10 w-10 bg-white ml-2 rounded-full">🔎</button>
+<div class="flex items-center w-screen h-screen bg-cover bg-center justify-center" style="background-image: url('https://cdn.pixabay.com/photo/2022/08/16/10/24/lightning-7389933_1280.jpg');">
+    <div id="main" class="backdrop-blur-md bg-white/10 shadow-xl shadow-orange-600 rounded-xl p-8 w-80 h-96">
+        <div class="flex justify-between items-center mb-4">
+            <input placeholder="Enter city name" type="text" class="h-10 text-black bg-white w-3/4 rounded-3xl px-4 focus:outline-none focus:ring-2 focus:ring-orange-500" />
+            <button class="h-10 w-10 bg-white ml-2 rounded-full flex items-center justify-center hover:bg-gray-200">
+                <i class="fas fa-search text-gray-600"></i>
+            </button>
         </div>
-        <h1 id="temp" class="m-3 font-sans"><img class="h-10" src="./image-Otr_tpzLU-transformed-removebg-preview.png" alt=""></h1>
-        <h1 id="temp2" class="m-3 font-sans"></h1>
-        <h1 id="temp3" class="m-3"></h1>
-        <h1 class="name"></h1>
+        <div id="weather-info">
+            <h1 id="temp" class="text-2xl font-bold mb-2">Weather Info</h1>
+            <h1 id="temp2" class="text-xl font-medium"></h1>
+            <h1 id="temp3" class="text-lg font-light"></h1>
+            <h1 class="name"></h1>
+        </div>
     </div>
 
+    <!-- Social Media Links fixed to bottom right -->
+    <div class="fixed bottom-6 right-6 flex flex-col space-y-4">
+        <a href="https://www.linkedin.com/in/gagandeep-jhanji" target="_blank" class="social-icon text-2xl text-white">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        <a href="https://github.com/gagankj" target="_blank" class="social-icon text-2xl text-white">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://gagankj.github.io/Portfolio/" target="_blank" class="social-icon text-2xl text-white">
+            <i class="fas fa-briefcase"></i>
+        </a>
+    </div>
 </div>
 
-
-
-
-        
 <script src="script.js"></script>    
 </body>
 </html>
